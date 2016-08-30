@@ -1,0 +1,32 @@
+body{
+	/*padding-top: 70px;*/
+}
+
+.carousel-inner img {
+      width: 100%;
+      margin: auto;
+  }
+
+
+
+/* Media Queries */
+@media (max-width: 767px){
+	nav a img{
+		width: 30px !important;
+		height: 30px;
+		margin-left: 0px !important;
+	}
+	.carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+
+
+/* ESTILOS DE PRUEBA */
+nav a img{
+	width: 80px;
+	height: 80px;
+	background: #F8F8F8;
+	margin-left: 50px;
+}
